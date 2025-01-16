@@ -16,5 +16,8 @@ class StockSpanner {
 
         return span;   
     }
-    
+
 }
+
+//This code is actually leetcode solution of the StockSpan Problem,
+/
