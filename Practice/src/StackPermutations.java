@@ -1,7 +1,4 @@
-/**
- * This Java class checks if two given arrays are permutations of each other using a stack.
- */
-package Stacks;
+
 import java.util.Stack;
 import java.util.*;
 class StackPermutations{
@@ -21,6 +18,7 @@ class StackPermutations{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //length of array .
+        System.out.print("Enter the valut of n");
         int n = sc.nextInt();
         int[] a = new int[n];
         int[] b = new int[n];
@@ -36,6 +34,6 @@ class StackPermutations{
             System.out.println("Yes , the given element in a and b are permutations of each other");
         }else{
             System.out.println("No , they are not permutations of each other");
-        } 
+        }
     }
 }
