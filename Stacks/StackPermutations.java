@@ -1,7 +1,7 @@
 /**
  * This Java class checks if two given arrays are permutations of each other using a stack.
  */
-package Stacks;
+ package Stacks;
 import java.util.Stack;
 import java.util.*;
 class StackPermutations{
